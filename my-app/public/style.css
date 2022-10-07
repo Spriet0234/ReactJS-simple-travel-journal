@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+.tabList{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    gap: 120px;
+    overflow-: auto;
+}
+.tab{
+    display: flex;
+    flex-direction:column;
+    position:relative;
+    flex: 0 0 auto;
+    margin-top:0px;
+    
+}
+
+.image{
+    position: absolute;
+    width: 130px;
+    height: 160px;
+    left: 40px;
+    top: 80px;
+    border-radius:7px;
+}
+
+.head{
+    background-color:#F55A5A;
+    position: absolute;
+    width: 550px;
+    height: 55px;
+    left: 0px;
+    top: 0px;
+}
+
+.head-image{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 217px;
+    top: 20px;
+}
+
+.head-text{
+    position: absolute;
+    width: 109px;
+    height: 16px;
+    left: 244px;
+    top: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    color: #FFFFFF;
+}
+.tab-title{
+    width: 326px;
+    height: 40px;
+    position:relative;
+    left: 184px;
+    top: 100px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+}
+.tab-location{
+    position: absolute;
+    width: 40px;
+    height: 10px;
+    left: 195px;
+    top: 95px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+}
+.tab-map-url{
+    position: absolute;
+    width: 106px;
+    height: 13px;
+    left: 247px;
+    top: 101.5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B;
+    white-space: nowrap;
+}
+.red{
+    position: absolute;
+    width: 9.5px;
+    height: 11px;
+    left: 184px;
+    top: 101.5px;   
+}
+.tab-date{
+    position: absolute;
+    width: 319px;
+    height: 11px;
+    left: 184px;
+    top: 155px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+}
+.tab-text{
+    position: absolute;
+    width: 326px;
+    height: 45px;
+    left: 184px;
+    top: 170px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283A;
+}
